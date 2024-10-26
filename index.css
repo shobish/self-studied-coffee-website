@@ -238,7 +238,48 @@ header .navbar{
 }
 
 
+/* menu- Section */
+.menu-section .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+    justify-content: space-between;
 
+}
+.menu-section{
+    background: var(--dark-color);
+    color: #fff;
+    padding: 50px 0 100px;
+}
+.menu-section .menu-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: calc(100%/3 - 110px);
+}
+.menu-section .name{
+    font-weight: 600;
+    font-size: var(--font-l);
+    margin: 12px 0;
+}
+.menu-section .menu-image{
+    width: 83%;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+@media screen and (max-width:1024px) {
+    .menu-section .menu-list{
+        gap: 60px;
+    
+    }
+    .menu-section .menu-item{
+    width: calc(100%/3 - 60px);
+
+    }
+}
 
 @media screen and (max-width:900px) {
     :root{
@@ -332,5 +373,27 @@ header .navbar{
         aspect-ratio: 1;
 
     }
+    .menu-section .menu-list{
+        gap: 30px;
+    
+    }
+    .menu-section .menu-item{
+    width: calc(100%/2 - 30px);
 
+    }
+    .menu-section .menu-image{
+        max-width: 200px;
+    }
+
+}
+@media screen and (max-width:640px) {
+    .menu-section .menu-list{
+        gap: 60px;
+    
+    }
+    .menu-section .menu-item{
+        width: 100%;
+    
+        }
+    
 }
