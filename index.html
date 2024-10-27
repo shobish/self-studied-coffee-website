@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe navbar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -110,7 +112,129 @@
                 </ul>
             </div>
          </section>
+         <section class="testimonial-section">
+            <h2 class="section-title">Testimonials</h2>
+                <div class="content-section">
+                    <div class="slider-containe swiperr">
+                        <div class="slider-wrapper swiper">
+                            <ul class="testimonial-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="./images/user-1.jpg" alt="" class="user-image">
+                                    <h3 class="name">John</h3>
+                                    <i class="feedback">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="./images/user-2.jpg" alt="" class="user-image">
+                                    <h3 class="name">Richard </h3>
+                                    <i class="feedback">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from </i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-3.jpg" alt="" class="user-image">
+                                    <h3 class="name">Luther</h3>
+                                    <i class="feedback">he first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="./images/user-4.jpg" alt="" class="user-image">
+                                    <h3 class="name">Martin</h3>
+                                    <i class="feedback">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/user-5.jpg" alt="" class="user-image">
+                                    <h3 class="name">Melvin</h3>
+                                    <i class="feedback">for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum</i>
+                                </li>
+
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class=" swiper-slide-button  swiper-button-next"></div>
+                          
+                            <!-- If we need scrollbar -->
+                        </div>
+                    </div>
+                </div>
+         </section>
+         <section class="gallery-section">
+            <h2 class="section-title">Gallery</h2>
+            <div class="content-section">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="./images/gallery-1.jpg" alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="./images/gallery-2.jpg" alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="./images/gallery-3.jpg" alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+         </section>
+         <section class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+                <div class="content-section">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>The standard chunk </p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>shobishpp@gmail.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>6382634994</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid"></i>
+                            <p></p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid"></i>
+                            <p></p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid"></i>
+                            <p></p>
+                        </li>
+                    </ul>
+                    <form action="" class="contact-form">
+                        <input type="text" placeholder="Enter your Name" class="form-input" required>
+                        <input type="email" placeholder="Enter your Email" class="form-input" required>
+                        <textarea name="message" placeholder=" your Message" class="form-input"></textarea>
+                        <button class="submit-button">Submit </button>
+                    </form>
+                </div>
+            </h2>
+         </section>
+         <footer class="footer-section">
+            <div class="content-secton">
+                <p class="copyright-text">@ 2024 coffee shop</p>
+                <div class="social-links-list">
+                    <a href="" class="social-liks"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="social-liks"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="social-liks"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">.</span>
+                    <a href="#" class= " policy-link">Refund Policy</a>
+                </p>
+            </div>
+
+         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
